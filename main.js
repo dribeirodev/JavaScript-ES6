@@ -20,5 +20,7 @@ usuarios.map((u) => {
 
 let pessoa = usuarios.filter((u) => u.nome === 'Diego');
 
+let pessoa = usuarios.filter((u) => u.nome === 'Diego');
+
 console.log(idade);
 console.log(pessoa);
