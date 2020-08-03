@@ -1,5 +1,7 @@
 import * as funcoes from './funcoes';
 import {Admin, Usuario, usuarios} from './exercicios';
+import {executaPromisse, executaPromisseArrowF} from './async_await'
+import { dadosUserGit } from './axios';
 
 console.log(funcoes.default(5));
 console.log(funcoes.soma(funcoes.default(5),2));
@@ -20,7 +22,14 @@ usuarios.map((u) => {
 
 let pessoa = usuarios.filter((u) => u.nome === 'Diego');
 
-let pessoa = usuarios.filter((u) => u.nome === 'Diego');
+pessoa = usuarios.filter((u) => u.nome === 'Diego');
 
 console.log(idade);
 console.log(pessoa);
+
+// async await
+executaPromisse();
+executaPromisseArrowF();
+
+//axios
+dadosUserGit();
